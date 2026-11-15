@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados e modelos gerados (recriados com `make all`)
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+models/*.joblib
+
+# Sistema / IDE
+.DS_Store
+.vscode/
+.idea/
